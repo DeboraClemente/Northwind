@@ -1,0 +1,10 @@
+version: 1
+
+sources:
+  - name: northwind  
+    database: FEA24_9
+    description: Northwind's sales system
+    schema: RAW_NORTHWIND
+    tables: 
+      - name: _ORDER_
+      - name: PRODUCT
